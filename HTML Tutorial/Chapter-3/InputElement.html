@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML PRAC-2</title>
+</head>
+<body>
+    <form action="/action">
+        <div>
+            <label for="username">Enter your Username</label>
+            <input type="text" placeholder="username" id="username" name="user"/>
+        </div>
+
+        <div>
+            <label for="password">Enter your password</label>
+            <input type="password" placeholder=" enter password" 
+                   id="password" name="pass"/>
+        </div>
+
+        <button type="submit">Click me to submit data</button>
+
+    </form>
+    <hr>
+    <form action="https://www.youtube.com/results">
+        <div>
+            <input type="text" placeholder="search on youtube" name="search_query" />
+            <button>Submit</button>
+        </div>
+    </form>
+    <hr>
+    <form action="https://www.google.com/search">
+        <div>
+            <input type="text" placeholder="search on Google" name="q" />
+            <button>Submit</button>
+        </div>
+    </form>
+    <hr>
+    <form action="/server">
+        <div>
+            <input type="checkbox" name="Subject" id="Math" value="Maths"/>
+            <label for="Math">Maths</label>
+        </div>
+        <div>
+            <input type="checkbox" name="Subject" id="Phy" checked  value="Phys"/>
+            <label for="Phy">Phys</label>
+        </div>
+        <div>
+            <input type="checkbox" name="Subject" id="Chem" value="Chems"/>
+            <label for="Chem">Chems</label>
+        </div>
+        
+        <hr>
+        <div>
+            <input type="radio" name="Fruit" id="Apple" value="Apple"  />
+            <label for="Apple">Apple</label>
+        </div>
+        <div>
+            <input type="radio" name="Fruit" id="Mango" checked />
+            <label for="Mango">Mango</label>
+        </div>
+        <div>
+            <input type="radio" name="Fruit" id="Banana" value="Banana" />
+            <label for="Banana">Banana</label>
+        </div>
+        <hr>
+        <div>
+            <label for="profession">Choose Your Profession:</label> 
+            <select name="profession" id="profession">
+                <option>Select your option</option>
+                <option value="student">Student</option>
+                <option value="dev" selected >Developer</option>
+            </select>
+        </div>
+        <div>
+            <label for="volume">Volume</label>
+            <input type="range" min="0" max="100" 
+                   id="volume" name="Vol" 
+                   value="70" step="10" />
+        </div>
+        <div>
+            <label for="feedback">Please give your valuable feedback</label>
+            <textarea id="feedback" placeholder="write your feedback here" 
+                      name="feedback" rows="5" cols="5">world</textarea>
+        </div>
+       <button>Submit</button>
+
+    </form>
+    
+
+</body>
+</html>

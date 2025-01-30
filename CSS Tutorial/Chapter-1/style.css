@@ -1,0 +1,35 @@
+h2{
+    color:brown;
+    background-color: pink;
+    text-align: center;
+    border: solid;
+    width: 50%;
+    text-decoration: red dotted line-through;
+}
+
+button{
+    color:purple;
+    background-color: skyblue;
+    
+}
+
+p{
+    font-weight: bold;
+    line-height: 2.5;
+    font-size: 20px;
+}
+
+h3{
+    text-decoration: blue wavy overline;
+    letter-spacing: 50px;
+    font-size: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-family: arial;
+    text-transform: uppercase;
+}
