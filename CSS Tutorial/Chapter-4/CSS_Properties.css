@@ -1,10 +1,87 @@
-div{
+
+/* Background-image & size */
+
+#Box{
     height: 400px;
     width: 800px;
     background-color: #7aa874;
     margin: 10px auto;
+    text-align: center;
 
     background-image: url("Background_Image.avif");
     background-size: contain;
     color: black;
+}
+
+/* Position Properties */
+
+section div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+#Static{
+    background-color: yellow;
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+#Relative{
+    background-color: yellow;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+#Absolute{
+    background-color: yellow;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+#Fixed{
+    background-color: yellow;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+
+/* Smiley Face */
+#smiley{
+    height: 400px;
+    width: 400px;
+    background-color: #ffa511;
+    border-radius: 50%;
+}
+#mouth{
+    height: 75px;
+    width: 200px;
+    background-color: brown;
+    position: relative;
+    top: 250px;
+    left: 100px;
+    border-radius: 0 0 50px 50px;
+}
+
+#left{
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 100px;
+}
+#right{
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 175px;
+}
+.E{
+    display: inline-block;
 }

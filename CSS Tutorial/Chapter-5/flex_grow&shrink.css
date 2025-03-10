@@ -1,0 +1,57 @@
+#container{
+    height: 600px;
+    width: 60%;
+    background-color: azure;
+    border: 2px solid black;
+    margin: 10px auto;
+    
+    display: flex; 
+    flex-direction: row;
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    /* flex-wrap: wrap; */
+    /* align-items: flex-start; */
+    align-content: flex-start;
+    
+}
+  
+#org{
+        /* align-self: flex-end; */
+        align-self: flex-start;
+        /* flex-grow: 1; */
+        /* {orange and blue equally occupy available space, if both sets to
+        flex-grow:1; } */
+
+        flex-shrink: 1;
+}
+
+#blue{
+    /* flex_grow */
+   
+    /* Available space occupy by blue */
+   /* flex-grow: 3; */
+   /* max-width: 400px; */
+   /* min-width: 300px; */
+
+   /* flex_shrink */
+
+   flex-shrink: 2;
+}
+ 
+h1{
+    text-align: center;
+}
+
+#container div{
+    height: 100px;
+    
+    width: 300px;
+    /* width used for flex-shrink */
+
+    /* width: 50px; */
+    /* width used for flex-grow */
+    
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}

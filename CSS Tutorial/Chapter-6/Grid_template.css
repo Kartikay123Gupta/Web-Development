@@ -1,0 +1,65 @@
+.container{
+    height: 300px;
+    width: 600px;
+    background-color: yellow;
+    
+    display: inline-grid;
+    
+    /* 1.) Grid-Template */
+    
+    /* grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-columns: 200px 200px 200px; */
+     /* grid-template-columns: auto auto auto; */
+
+     grid-template-rows: repeat(3,1fr);
+     grid-template-columns: repeat(3,1fr);
+     /* grid-template-columns: 1fr 1fr 1fr; */
+
+     /* 2.) Grid-gap */
+    
+    /* row-gap: 10px;
+    column-gap: 30px; */
+    /* grid-gap: 20px; */
+    grid-gap: 10px 30px;
+
+      /* Common Properties */
+    
+      /* justify-items: start; */
+      /* justify-items: center; */
+      /* justify-items: end; */
+
+      /* align-items: start; */
+      /* align-items: center; */
+      /* align-items: end; */
+
+      /* place-items: start; */
+      place-items: center;
+      /* place-items: end; */
+
+
+} 
+
+.item{
+    height: 50px;
+    width: 100px;
+/* {now grid-item will occupy the whole grid cell} */
+    
+    text-align: center;
+    background-color: greenyellow;
+    border: 2px solid black;
+}
+
+.one{
+    /* justify-self: end; */
+    /* justify-self: center; */
+    /* justify-self: start; */
+
+    /* align-self: start; */
+    /* align-self: center; */
+    /* align-self: end; */
+
+    /* place-self: start; */
+    /* place-self: center; */
+    place-self: end;
+}
+
